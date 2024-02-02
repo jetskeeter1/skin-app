@@ -2,7 +2,7 @@ import './style/Login.scss';
 
 function Login() {
   return (
-    <div className="App">
+    <div className="Login">
       <header className="App-header">
       <h1>Login</h1>
       <div className='user'>
