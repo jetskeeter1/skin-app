@@ -1,6 +1,6 @@
 import './style/Login.scss';
 
-function Login() {
+function App() {
   return (
     <div className="Login">
       <header className="App-header">
@@ -19,4 +19,4 @@ function Login() {
   );
 }
 
-export default Login;
+export default App;
