@@ -1,21 +1,24 @@
 import './style/Login.scss';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Navbar from "./component/Navbar"; 
+import Admin from './pages/Admin';
+import SupAd from './pages/superadmin';
+import Login from './pages/Login';
+
 
 function App() {
   return (
-    <div className="Login">
-      <header className="App-header">
-      <h1>Login</h1>
-      <div className='user'>
-        <input type='text' className='username' placeholder='Username...'/>
-      </div>
-      <div className='pass'>
-        <input type='password' className='password' placeholder='Password...'/>
-      </div>
+    <>
+      
+      <Router>
+        <Routes>
+          <Route exact path='/' element={<Login />} />
+          <Route path='/Admin' element={<Admin />} />
+          <Route path='/SupAd' element={<SupAd />} />
+        </Routes>
+      </Router>
 
-      <button type='button' id='btn-login'>Login</button>
-      <a href='./pages/admin.js'>admin pages</a>
-      </header>
-    </div>
+    </>
   );
 }
 

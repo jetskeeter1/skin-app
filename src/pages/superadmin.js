@@ -1,7 +1,7 @@
-function superadmin(){
-    <div>
-        <h1>Welcome to the super admin page</h1>
-
-        <a href="../index.js">Back to login</a>
-    </div>
+function SuperAdmin(){
+    return(
+        <h1>Welcome to SuperAdmin</h1>
+    )
 }
+
+export default SuperAdmin;
