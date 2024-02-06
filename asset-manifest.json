@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/skin-app/static/css/main.77fdd773.css",
-    "main.js": "/skin-app/static/js/main.72c2ac21.js",
+    "main.js": "/skin-app/static/js/main.6413fc87.js",
     "static/js/592.8c4fe979.chunk.js": "/skin-app/static/js/592.8c4fe979.chunk.js",
     "index.html": "/skin-app/index.html",
     "main.77fdd773.css.map": "/skin-app/static/css/main.77fdd773.css.map",
-    "main.72c2ac21.js.map": "/skin-app/static/js/main.72c2ac21.js.map",
+    "main.6413fc87.js.map": "/skin-app/static/js/main.6413fc87.js.map",
     "592.8c4fe979.chunk.js.map": "/skin-app/static/js/592.8c4fe979.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.77fdd773.css",
-    "static/js/main.72c2ac21.js"
+    "static/js/main.6413fc87.js"
   ]
 }
