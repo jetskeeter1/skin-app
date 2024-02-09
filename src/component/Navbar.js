@@ -1,10 +1,12 @@
 import { Link } from "react-router-dom";
-import '../style/Nav';
+import '../style/Nav.scss';
 
 function Navbar(){
     return(
         <div className="navbar">
-            <h1>Waiting</h1>
+            <Link to='/'>Login</Link>
+            <Link to='/admin'>Admin</Link>
+            <Link to='/SupAd'>SuperAdmin</Link>
         </div>
     )
 }
